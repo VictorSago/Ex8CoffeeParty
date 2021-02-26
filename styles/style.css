@@ -1,5 +1,51 @@
 /* @import url(//maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css); */
 
+
 body {
-  background: #100b08;
+  /* background: #100b08; */
+  background-color: #431F03;
+  margin-bottom: 0;
+}
+
+main {
+  /* height: 80vh; */
+  overflow: auto;
+}
+
+.maincontent {
+  height: 80vh;
+}
+
+header, footer {
+  background-color: #100b08;
+  height: 10vh;
+  min-height: 90px;
+}
+
+.navbar-brand {
+  margin-top: 0;
+  padding-top: 0;
+}
+
+.centered {
+  text-align: center;
+}
+
+.pricetag {
+  font-weight: 700;
+  /* margin-bottom: 2rem; */
+}
+
+.productcell {
+  background: #dbc18c;
+  border-bottom: solid 1px;
+}
+
+.bottomfiller {
+  margin-bottom: auto;
+  margin-top: auto;
+}
+
+.bottom {
+  overflow: hidden;
 }
