@@ -10,10 +10,7 @@ body {
 main {
   /* height: 80vh; */
   overflow: auto;
-}
 
-.maincontent {
-  height: 80vh;
 }
 
 header, footer {
@@ -27,25 +24,25 @@ header, footer {
   padding-top: 0;
 }
 
-.centered {
-  text-align: center;
+.maincontent {
+  /* height: 80vh; */
+  background-color: #bb9276;
+  color: #0a400a;
 }
+
 
 .pricetag {
   font-weight: 700;
   /* margin-bottom: 2rem; */
 }
 
-.productcell {
-  background: #dbc18c;
-  border-bottom: solid 1px;
-}
-
 .bottomfiller {
+  height: auto;
   margin-bottom: auto;
   margin-top: auto;
 }
 
 .bottom {
   overflow: hidden;
+  text-align: right;
 }
